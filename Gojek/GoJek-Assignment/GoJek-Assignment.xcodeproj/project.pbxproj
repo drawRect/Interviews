@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0780C69E232BE42E00E53312 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C696232BE42E00E53312 /* UIImageView+Extension.swift */; };
+		0780C69F232BE42E00E53312 /* IGResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C697232BE42E00E53312 /* IGResult.swift */; };
+		0780C6A0232BE42E00E53312 /* IGRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C698232BE42E00E53312 /* IGRoundedView.swift */; };
+		0780C6A1232BE42E00E53312 /* IGImageRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C699232BE42E00E53312 /* IGImageRequestable.swift */; };
+		0780C6A2232BE42E00E53312 /* IGError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C69A232BE42E00E53312 /* IGError.swift */; };
+		0780C6A3232BE42E00E53312 /* IGURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C69B232BE42E00E53312 /* IGURLSession.swift */; };
+		0780C6A4232BE42E00E53312 /* ImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C69C232BE42E00E53312 /* ImageView+Additions.swift */; };
+		0780C6A5232BE42E00E53312 /* IGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C69D232BE42E00E53312 /* IGCache.swift */; };
+		0780C6A7232BED5F00E53312 /* GoProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780C6A6232BED5F00E53312 /* GoProgressHUD.swift */; };
+		794AA2B8232A8C4B00FC6BA7 /* GoContactDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2B7232A8C4B00FC6BA7 /* GoContactDetailsHeaderView.swift */; };
+		794AA2BA232A8C5400FC6BA7 /* GoContactDetailsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794AA2B9232A8C5400FC6BA7 /* GoContactDetailsHeaderView.xib */; };
+		794AA2BD232A9C3700FC6BA7 /* GoContactDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2BB232A9C3700FC6BA7 /* GoContactDetailCell.swift */; };
+		794AA2BE232A9C3700FC6BA7 /* GoContactDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794AA2BC232A9C3700FC6BA7 /* GoContactDetailCell.xib */; };
+		794AA2C0232A9E1B00FC6BA7 /* GoContactEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2BF232A9E1B00FC6BA7 /* GoContactEditController.swift */; };
+		794AA2C2232A9F8200FC6BA7 /* GoCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2C1232A9F8200FC6BA7 /* GoCommon.swift */; };
+		794AA2C4232AA22400FC6BA7 /* GoContactEditHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2C3232AA22400FC6BA7 /* GoContactEditHeaderView.swift */; };
+		794AA2C6232AA22F00FC6BA7 /* GoContactEditHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794AA2C5232AA22F00FC6BA7 /* GoContactEditHeaderView.xib */; };
+		794AA2C8232AB1C300FC6BA7 /* GoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2C7232AB1C300FC6BA7 /* GoConstants.swift */; };
+		794AA2CA232AB2D900FC6BA7 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2C9232AB2D900FC6BA7 /* UIView+Gradient.swift */; };
+		794AA2CC232AB9D700FC6BA7 /* Color+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794AA2CB232AB9D700FC6BA7 /* Color+Additions.swift */; };
+		795D8006232911B500A07E61 /* GoAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D8005232911B500A07E61 /* GoAppDelegate.swift */; };
+		795D8008232911B500A07E61 /* GoContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D8007232911B500A07E61 /* GoContactListController.swift */; };
+		795D800B232911B500A07E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795D8009232911B500A07E61 /* Main.storyboard */; };
+		795D800D232911B600A07E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795D800C232911B600A07E61 /* Assets.xcassets */; };
+		795D8010232911B600A07E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795D800E232911B600A07E61 /* LaunchScreen.storyboard */; };
+		795D80192329397F00A07E61 /* GoContactListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D80172329397F00A07E61 /* GoContactListCell.swift */; };
+		795D801A2329397F00A07E61 /* GoContactListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795D80182329397F00A07E61 /* GoContactListCell.xib */; };
+		795D801C23294E2600A07E61 /* GoNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D801B23294E2600A07E61 /* GoNetworkHelper.swift */; };
+		795D801E23294ED100A07E61 /* GoContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795D801D23294ED100A07E61 /* GoContact.swift */; };
+		79BC3C29232A194F00134543 /* GoContact+Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC3C28232A194F00134543 /* GoContact+Details.swift */; };
+		79BC3C2B232A196D00134543 /* GoContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC3C2A232A196D00134543 /* GoContacts.swift */; };
+		79BC3C4D232A8B3200134543 /* GoContactDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BC3C4C232A8B3200134543 /* GoContactDetailsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0780C696232BE42E00E53312 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		0780C697232BE42E00E53312 /* IGResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGResult.swift; sourceTree = "<group>"; };
+		0780C698232BE42E00E53312 /* IGRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGRoundedView.swift; sourceTree = "<group>"; };
+		0780C699232BE42E00E53312 /* IGImageRequestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGImageRequestable.swift; sourceTree = "<group>"; };
+		0780C69A232BE42E00E53312 /* IGError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGError.swift; sourceTree = "<group>"; };
+		0780C69B232BE42E00E53312 /* IGURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGURLSession.swift; sourceTree = "<group>"; };
+		0780C69C232BE42E00E53312 /* ImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Additions.swift"; sourceTree = "<group>"; };
+		0780C69D232BE42E00E53312 /* IGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGCache.swift; sourceTree = "<group>"; };
+		0780C6A6232BED5F00E53312 /* GoProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoProgressHUD.swift; sourceTree = "<group>"; };
+		794AA2B7232A8C4B00FC6BA7 /* GoContactDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContactDetailsHeaderView.swift; sourceTree = "<group>"; };
+		794AA2B9232A8C5400FC6BA7 /* GoContactDetailsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoContactDetailsHeaderView.xib; sourceTree = "<group>"; };
+		794AA2BB232A9C3700FC6BA7 /* GoContactDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContactDetailCell.swift; sourceTree = "<group>"; };
+		794AA2BC232A9C3700FC6BA7 /* GoContactDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoContactDetailCell.xib; sourceTree = "<group>"; };
+		794AA2BF232A9E1B00FC6BA7 /* GoContactEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContactEditController.swift; sourceTree = "<group>"; };
+		794AA2C1232A9F8200FC6BA7 /* GoCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCommon.swift; sourceTree = "<group>"; };
+		794AA2C3232AA22400FC6BA7 /* GoContactEditHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContactEditHeaderView.swift; sourceTree = "<group>"; };
+		794AA2C5232AA22F00FC6BA7 /* GoContactEditHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoContactEditHeaderView.xib; sourceTree = "<group>"; };
+		794AA2C7232AB1C300FC6BA7 /* GoConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoConstants.swift; sourceTree = "<group>"; };
+		794AA2C9232AB2D900FC6BA7 /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		794AA2CB232AB9D700FC6BA7 /* Color+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Additions.swift"; sourceTree = "<group>"; };
+		795D8002232911B500A07E61 /* GoJek-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoJek-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		795D8005232911B500A07E61 /* GoAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoAppDelegate.swift; sourceTree = "<group>"; };
+		795D8007232911B500A07E61 /* GoContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContactListController.swift; sourceTree = "<group>"; };
+		795D800A232911B500A07E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		795D800C232911B600A07E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		795D800F232911B600A07E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		795D8011232911B600A07E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795D80172329397F00A07E61 /* GoContactListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContactListCell.swift; sourceTree = "<group>"; };
+		795D80182329397F00A07E61 /* GoContactListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoContactListCell.xib; sourceTree = "<group>"; };
+		795D801B23294E2600A07E61 /* GoNetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetworkHelper.swift; sourceTree = "<group>"; };
+		795D801D23294ED100A07E61 /* GoContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContact.swift; sourceTree = "<group>"; };
+		79BC3C28232A194F00134543 /* GoContact+Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoContact+Details.swift"; sourceTree = "<group>"; };
+		79BC3C2A232A196D00134543 /* GoContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContacts.swift; sourceTree = "<group>"; };
+		79BC3C4C232A8B3200134543 /* GoContactDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoContactDetailsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		795D7FFF232911B500A07E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0780C695232BE42E00E53312 /* Image Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				0780C696232BE42E00E53312 /* UIImageView+Extension.swift */,
+				0780C697232BE42E00E53312 /* IGResult.swift */,
+				0780C698232BE42E00E53312 /* IGRoundedView.swift */,
+				0780C699232BE42E00E53312 /* IGImageRequestable.swift */,
+				0780C69A232BE42E00E53312 /* IGError.swift */,
+				0780C69B232BE42E00E53312 /* IGURLSession.swift */,
+				0780C69C232BE42E00E53312 /* ImageView+Additions.swift */,
+				0780C69D232BE42E00E53312 /* IGCache.swift */,
+			);
+			path = "Image Fetcher";
+			sourceTree = "<group>";
+		};
+		0780C6A8232CA19F00E53312 /* Contact Details */ = {
+			isa = PBXGroup;
+			children = (
+				794AA2B7232A8C4B00FC6BA7 /* GoContactDetailsHeaderView.swift */,
+				794AA2B9232A8C5400FC6BA7 /* GoContactDetailsHeaderView.xib */,
+				794AA2BB232A9C3700FC6BA7 /* GoContactDetailCell.swift */,
+				794AA2BC232A9C3700FC6BA7 /* GoContactDetailCell.xib */,
+				79BC3C4C232A8B3200134543 /* GoContactDetailsController.swift */,
+			);
+			path = "Contact Details";
+			sourceTree = "<group>";
+		};
+		0780C6A9232CA1AF00E53312 /* Contact CreateNEdit */ = {
+			isa = PBXGroup;
+			children = (
+				794AA2BF232A9E1B00FC6BA7 /* GoContactEditController.swift */,
+				794AA2C3232AA22400FC6BA7 /* GoContactEditHeaderView.swift */,
+				794AA2C5232AA22F00FC6BA7 /* GoContactEditHeaderView.xib */,
+			);
+			path = "Contact CreateNEdit";
+			sourceTree = "<group>";
+		};
+		0780C6AA232CA1CE00E53312 /* Contact List */ = {
+			isa = PBXGroup;
+			children = (
+				795D8007232911B500A07E61 /* GoContactListController.swift */,
+				795D80172329397F00A07E61 /* GoContactListCell.swift */,
+				795D80182329397F00A07E61 /* GoContactListCell.xib */,
+			);
+			path = "Contact List";
+			sourceTree = "<group>";
+		};
+		0780C6AB232CA20500E53312 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79BC3C2A232A196D00134543 /* GoContacts.swift */,
+				795D801D23294ED100A07E61 /* GoContact.swift */,
+				79BC3C28232A194F00134543 /* GoContact+Details.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0780C6AD232CA25F00E53312 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				795D801B23294E2600A07E61 /* GoNetworkHelper.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0780C6AE232CA2AA00E53312 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				794AA2C1232A9F8200FC6BA7 /* GoCommon.swift */,
+				794AA2C9232AB2D900FC6BA7 /* UIView+Gradient.swift */,
+				794AA2CB232AB9D700FC6BA7 /* Color+Additions.swift */,
+				0780C6A6232BED5F00E53312 /* GoProgressHUD.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		795D7FF9232911B500A07E61 = {
+			isa = PBXGroup;
+			children = (
+				795D8004232911B500A07E61 /* GoJek-Assignment */,
+				795D8003232911B500A07E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		795D8003232911B500A07E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				795D8002232911B500A07E61 /* GoJek-Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795D8004232911B500A07E61 /* GoJek-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				0780C6AA232CA1CE00E53312 /* Contact List */,
+				0780C6A9232CA1AF00E53312 /* Contact CreateNEdit */,
+				0780C6A8232CA19F00E53312 /* Contact Details */,
+				0780C6AB232CA20500E53312 /* Models */,
+				0780C6AD232CA25F00E53312 /* Network */,
+				0780C695232BE42E00E53312 /* Image Fetcher */,
+				0780C6AE232CA2AA00E53312 /* Helper */,
+				795D8005232911B500A07E61 /* GoAppDelegate.swift */,
+				795D8009232911B500A07E61 /* Main.storyboard */,
+				794AA2C7232AB1C300FC6BA7 /* GoConstants.swift */,
+				795D800C232911B600A07E61 /* Assets.xcassets */,
+				795D800E232911B600A07E61 /* LaunchScreen.storyboard */,
+				795D8011232911B600A07E61 /* Info.plist */,
+			);
+			path = "GoJek-Assignment";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		795D8001232911B500A07E61 /* GoJek-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795D8014232911B600A07E61 /* Build configuration list for PBXNativeTarget "GoJek-Assignment" */;
+			buildPhases = (
+				795D7FFE232911B500A07E61 /* Sources */,
+				795D7FFF232911B500A07E61 /* Frameworks */,
+				795D8000232911B500A07E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoJek-Assignment";
+			productName = "GoJek-Assignment";
+			productReference = 795D8002232911B500A07E61 /* GoJek-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795D7FFA232911B500A07E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Go;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Kumar, Ranjith B. (623-Extern)";
+				TargetAttributes = {
+					795D8001232911B500A07E61 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 795D7FFD232911B500A07E61 /* Build configuration list for PBXProject "GoJek-Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 795D7FF9232911B500A07E61;
+			productRefGroup = 795D8003232911B500A07E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795D8001232911B500A07E61 /* GoJek-Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		795D8000232911B500A07E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795D801A2329397F00A07E61 /* GoContactListCell.xib in Resources */,
+				795D8010232911B600A07E61 /* LaunchScreen.storyboard in Resources */,
+				794AA2C6232AA22F00FC6BA7 /* GoContactEditHeaderView.xib in Resources */,
+				795D800D232911B600A07E61 /* Assets.xcassets in Resources */,
+				794AA2BE232A9C3700FC6BA7 /* GoContactDetailCell.xib in Resources */,
+				794AA2BA232A8C5400FC6BA7 /* GoContactDetailsHeaderView.xib in Resources */,
+				795D800B232911B500A07E61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		795D7FFE232911B500A07E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0780C69F232BE42E00E53312 /* IGResult.swift in Sources */,
+				794AA2B8232A8C4B00FC6BA7 /* GoContactDetailsHeaderView.swift in Sources */,
+				795D801C23294E2600A07E61 /* GoNetworkHelper.swift in Sources */,
+				795D8008232911B500A07E61 /* GoContactListController.swift in Sources */,
+				795D801E23294ED100A07E61 /* GoContact.swift in Sources */,
+				79BC3C29232A194F00134543 /* GoContact+Details.swift in Sources */,
+				794AA2BD232A9C3700FC6BA7 /* GoContactDetailCell.swift in Sources */,
+				795D8006232911B500A07E61 /* GoAppDelegate.swift in Sources */,
+				794AA2C4232AA22400FC6BA7 /* GoContactEditHeaderView.swift in Sources */,
+				794AA2C0232A9E1B00FC6BA7 /* GoContactEditController.swift in Sources */,
+				0780C6A2232BE42E00E53312 /* IGError.swift in Sources */,
+				794AA2CC232AB9D700FC6BA7 /* Color+Additions.swift in Sources */,
+				794AA2C8232AB1C300FC6BA7 /* GoConstants.swift in Sources */,
+				795D80192329397F00A07E61 /* GoContactListCell.swift in Sources */,
+				79BC3C4D232A8B3200134543 /* GoContactDetailsController.swift in Sources */,
+				794AA2C2232A9F8200FC6BA7 /* GoCommon.swift in Sources */,
+				0780C6A3232BE42E00E53312 /* IGURLSession.swift in Sources */,
+				794AA2CA232AB2D900FC6BA7 /* UIView+Gradient.swift in Sources */,
+				0780C6A4232BE42E00E53312 /* ImageView+Additions.swift in Sources */,
+				0780C69E232BE42E00E53312 /* UIImageView+Extension.swift in Sources */,
+				0780C6A5232BE42E00E53312 /* IGCache.swift in Sources */,
+				79BC3C2B232A196D00134543 /* GoContacts.swift in Sources */,
+				0780C6A0232BE42E00E53312 /* IGRoundedView.swift in Sources */,
+				0780C6A1232BE42E00E53312 /* IGImageRequestable.swift in Sources */,
+				0780C6A7232BED5F00E53312 /* GoProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		795D8009232911B500A07E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795D800A232911B500A07E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		795D800E232911B600A07E61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795D800F232911B600A07E61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		795D8012232911B600A07E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		795D8013232911B600A07E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		795D8015232911B600A07E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35P9S7STBV;
+				INFOPLIST_FILE = "GoJek-Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DrawRect.GoJek-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		795D8016232911B600A07E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35P9S7STBV;
+				INFOPLIST_FILE = "GoJek-Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DrawRect.GoJek-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		795D7FFD232911B500A07E61 /* Build configuration list for PBXProject "GoJek-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795D8012232911B600A07E61 /* Debug */,
+				795D8013232911B600A07E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795D8014232911B600A07E61 /* Build configuration list for PBXNativeTarget "GoJek-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795D8015232911B600A07E61 /* Debug */,
+				795D8016232911B600A07E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 795D7FFA232911B500A07E61 /* Project object */;
+}

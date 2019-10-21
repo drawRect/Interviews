@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nnx-n3-xxZ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Go Contacts List Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GoContactsListController" customModule="GoJek_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YA7-QA-ugU">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YA7-QA-ugU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HHx-2Z-bpV"/>
+                            <constraint firstItem="YA7-QA-ugU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WGR-dG-TzQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YA7-QA-ugU" secondAttribute="trailing" id="ZM6-08-d80"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YA7-QA-ugU" secondAttribute="bottom" id="os3-8j-qcq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zxj-Sz-neS"/>
+                    <connections>
+                        <outlet property="tableView" destination="YA7-QA-ugU" id="7YK-1f-Sdy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="-541"/>
+        </scene>
+        <!--Go Contact Details Controller-->
+        <scene sceneID="3Iq-2F-ob4">
+            <objects>
+                <viewController storyboardIdentifier="GoContactDetailsController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NXw-vT-gXp" customClass="GoContactDetailsController" customModule="GoJek_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bmf-lo-cdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W5D-eR-BhC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="W5D-eR-BhC" firstAttribute="top" secondItem="4WH-Fv-OAo" secondAttribute="top" id="Ect-5z-yan"/>
+                            <constraint firstItem="4WH-Fv-OAo" firstAttribute="trailing" secondItem="W5D-eR-BhC" secondAttribute="trailing" id="mdF-2b-Y94"/>
+                            <constraint firstItem="W5D-eR-BhC" firstAttribute="leading" secondItem="4WH-Fv-OAo" secondAttribute="leading" id="pfL-4C-iOw"/>
+                            <constraint firstItem="4WH-Fv-OAo" firstAttribute="bottom" secondItem="W5D-eR-BhC" secondAttribute="bottom" id="td3-Ee-kii"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4WH-Fv-OAo"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="W5D-eR-BhC" id="Lew-TY-cAy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNh-VA-WQO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1565" y="-548"/>
+        </scene>
+        <!--Go Contact Edit Controller-->
+        <scene sceneID="7Ht-Kk-QVL">
+            <objects>
+                <viewController storyboardIdentifier="GoContactEditController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6wb-JK-AdY" customClass="GoContactEditController" customModule="GoJek_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LaG-ea-TzE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aTb-Md-9gO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="aTb-Md-9gO" secondAttribute="trailing" id="Bdt-Yi-uia"/>
+                            <constraint firstItem="aTb-Md-9gO" firstAttribute="top" secondItem="LaG-ea-TzE" secondAttribute="top" id="Qgl-4H-jU6"/>
+                            <constraint firstAttribute="bottom" secondItem="aTb-Md-9gO" secondAttribute="bottom" id="vDX-3E-oLU"/>
+                            <constraint firstItem="aTb-Md-9gO" firstAttribute="leading" secondItem="LaG-ea-TzE" secondAttribute="leading" id="zpk-c1-kkl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ElU-DG-aqz"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="aTb-Md-9gO" id="XmA-Dw-onU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qX6-nM-2xh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2262" y="-555"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="c7v-u2-G2D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nnx-n3-xxZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fAg-Q3-wOT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vd1-Np-T6M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LmL-ai-3od" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-104.34782608695653" y="-541.07142857142856"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.29803921568627451" green="0.84705882352941175" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+</document>
